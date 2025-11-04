@@ -206,4 +206,37 @@ Successful runs end with `✅ Pipeline completed successfully!`.
 
 ---
 
+
+## 🔄 Workflow
+
+```mermaid
+sequenceDiagram
+    participant Node as ⚙️ Node.js Pipeline
+    participant OneDrive as 📂 OneDrive (Staging & Archive)
+    participant SharePoint as 🏢 SharePoint (eDocuments)
+    participant MySQL as 🗄️ MySQL Database
+    participant Graph as ☁️ Microsoft Graph API
+    participant Mail as 📧 Outlook (Graph Mail)
+
+    Node->>OneDrive: 🔍 List ZIP files (per team)
+    loop Each ZIP
+        OneDrive-->>Node: ⬇️ Download ZIP to local staging
+        Node->>Node: 🧩 Extract & Convert → Combined PDF
+        Node->>MySQL: 🔎 Query Emp Info by EmpID
+        Node->>SharePoint: ⬆️ Upload PDF → /Role/EmpID/
+        Node->>SharePoint: 📝 Patch metadata (EmpID, Role, Event, ScanBy)
+        alt Upload success
+            Node->>OneDrive: 📦 Move ZIP → Archive/{YYYY-MM}/
+        else Upload failed
+            Node->>OneDrive: 🚫 Move ZIP → Failed/{YYYY-MM}/
+        end
+        Node->>Node: 📝 Log result → summary.csv
+    end
+
+    Node->>Node: 📊 Group summary.csv by ScanBy
+    Node->>Graph: 🔍 Get user email from Entra ID
+    Node->>Mail: ✉️ Send summary email with CSV (Success/Fail counts)
+    Node->>OneDrive: 🧹 Cleanup staging & temp folders
+    Node-->>Node: ✅ Pipeline completed
+
 Thank you for using the SPD eDocument Automation pipeline. For issues or enhancement requests, reach out to the HRIS team or the development maintainers.
