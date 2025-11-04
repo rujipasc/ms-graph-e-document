@@ -1,0 +1,2176 @@
+{
+  "timestamp": "2025-10-29T04:26:30.276Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=35e49130-4f56-4852-8cc5-89066fde5967&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE1NTkwIn0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJznotyrq8s-EAUaDTIwLjE5MC4xNjMuMjgqLGRnWHkreUtvcWt6ZnFBWTNWVzV5ZUE4ekU0Vmhsb3NtYVhPRjcvdEtTUHc9MJIBOAFCEKHUBkdl4ABgHmUlZFIxsgNKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.CI0GTXp8W2DjZ6FIH5QXfhl04wQUhUXCiUp1QWjWmS8&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T04:26:30Z",
+    "eTag": "\"{35E49130-4F56-4852-8CC5-89066FDE5967},1\"",
+    "id": "01K5TQ4BRQSHSDKVSPKJEIZRMJAZX54WLH",
+    "lastModifiedDateTime": "2025-10-29T04:26:30Z",
+    "name": "22024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/22024572820251029-0001.pdf",
+    "cTag": "\"c:{35E49130-4F56-4852-8CC5-89066FDE5967},1\"",
+    "size": 297282,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BUA4GYBD4CETZGLPG53D37IKO3Y",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "OhBRRZTLSpxtxS2KO1GX77U2XBc="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T04:26:30Z",
+      "lastModifiedDateTime": "2025-10-29T04:26:30Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T04:26:31.461Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498271')/fields/$entity",
+    "@odata.etag": "\"35e49130-4f56-4852-8cc5-89066fde5967,2\"",
+    "FileLeafRef": "22024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498271",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498271"
+    },
+    "Modified": "2025-10-29T04:26:32Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T04:26:30Z",
+    "id": "498271",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "22024572820251029-0001.pdf",
+    "LinkFilename": "22024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297282",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498271",
+    "ParentLeafNameLookupId": "498271"
+  }
+}
+{
+  "timestamp": "2025-10-29T04:54:58.434Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=35e49130-4f56-4852-8cc5-89066fde5967&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE3Mjk4In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKbl9f6qrMs-EAUaDDQwLjEyNi4zNS44OSosZGdYeSt5S29xa3pmcUFZM1ZXNXllQTh6RTRWaGxvc21hWE9GNy90S1NQdz0wkgE4AUIQodQH6NHwAGAeZSqUkRuCekoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.fp4dKGNc8zzqYMH4ucXSfadjzt890FrOnlSClCXzT-w&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T04:26:30Z",
+    "eTag": "\"{35E49130-4F56-4852-8CC5-89066FDE5967},3\"",
+    "id": "01K5TQ4BRQSHSDKVSPKJEIZRMJAZX54WLH",
+    "lastModifiedDateTime": "2025-10-29T04:54:58Z",
+    "name": "22024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/22024572820251029-0001.pdf",
+    "cTag": "\"c:{35E49130-4F56-4852-8CC5-89066FDE5967},2\"",
+    "size": 297283,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BUA4GYBD4CETZGLPG53D37IKO3Y",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "92qWHR9nAoWvpzVc6aQqAm1wbeA="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T04:26:30Z",
+      "lastModifiedDateTime": "2025-10-29T04:54:58Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T04:54:58.899Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498271')/fields/$entity",
+    "@odata.etag": "\"35e49130-4f56-4852-8cc5-89066fde5967,4\"",
+    "FileLeafRef": "22024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498271",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498271"
+    },
+    "Modified": "2025-10-29T04:54:58Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T04:26:30Z",
+    "id": "498271",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "22024572820251029-0001.pdf",
+    "LinkFilename": "22024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297283",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "4.0",
+    "ParentVersionStringLookupId": "498271",
+    "ParentLeafNameLookupId": "498271"
+  }
+}
+{
+  "timestamp": "2025-10-29T04:55:02.165Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=f9c11718-d0dc-4c89-ba60-568f39f8ca24&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE3MzAyIn0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMqBuaKrrMs-EAUaDDQwLjEyNi4zNS44OCosMkxsb1dHWkc0Q04rMCsxU2F3V3l5VzQ2T2RCR2RUdUVCU2FiajVRdzcwOD0wkgE4AUIQodQH6agwAGAeZSwDZMYSIkoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.asujFS7q_1KKsmQdCgbKD2jKK-mxU3wJa96myyFJm2Y&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T04:55:02Z",
+    "eTag": "\"{F9C11718-D0DC-4C89-BA60-568F39F8CA24},1\"",
+    "id": "01K5TQ4BQYC7A7TXGQRFGLUYCWR447RSRE",
+    "lastModifiedDateTime": "2025-10-29T04:55:02Z",
+    "name": "22024572920251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245729/22024572920251029-0001.pdf",
+    "cTag": "\"c:{F9C11718-D0DC-4C89-BA60-568F39F8CA24},1\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BWNKVBQI2MRTJDIIHUT2WRBSV4R",
+      "name": "20245729",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245729",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "oEQAzAx/pqM0D3ut6BAUPMRv/Yw="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T04:55:02Z",
+      "lastModifiedDateTime": "2025-10-29T04:55:02Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T04:55:02.567Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498273')/fields/$entity",
+    "@odata.etag": "\"f9c11718-d0dc-4c89-ba60-568f39f8ca24,2\"",
+    "FileLeafRef": "22024572920251029-0001.pdf",
+    "OrganizationalIDNumber": "20245729",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498273",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498273"
+    },
+    "Modified": "2025-10-29T04:55:02Z",
+    "FirstName": "ขนิษฐวรรณ",
+    "LastName": "ศรีสงเปลือย",
+    "Created": "2025-10-29T04:55:02Z",
+    "id": "498273",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "22024572920251029-0001.pdf",
+    "LinkFilename": "22024572920251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498273",
+    "ParentLeafNameLookupId": "498273"
+  }
+}
+{
+  "timestamp": "2025-10-29T04:55:06.380Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=3ded0be1-79ed-4f05-91ce-a76cdbb4548f&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE3MzA2In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCL7LyMqrrMs-EAUaDTQwLjEyNi4zNS4xNTMqLDRzemFiUC9jY2t6dXUvMmgrUTYraFJITnJFMTdDWXZqOGFmOVNhRFRIbUE9MJIBOAFCEKHUB-qsMABgHmUnecKKvWVKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.vLGHpqFf5hyTa_oZwXRJYlM8fKobLci4-fPzFqUb8XQ&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T04:55:06Z",
+    "eTag": "\"{3DED0BE1-79ED-4F05-91CE-A76CDBB4548F},1\"",
+    "id": "01K5TQ4BXBBPWT33LZAVHZDTVHNTN3IVEP",
+    "lastModifiedDateTime": "2025-10-29T04:55:06Z",
+    "name": "22026724120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20267241/22026724120251029-0001.pdf",
+    "cTag": "\"c:{3DED0BE1-79ED-4F05-91CE-A76CDBB4548F},1\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BQP5GANGRVYGBG2S3L6U46JUZ6I",
+      "name": "20267241",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20267241",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "BeepcMSPhOyH3LtgB1Irp9CzmiQ="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T04:55:06Z",
+      "lastModifiedDateTime": "2025-10-29T04:55:06Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T04:55:06.807Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498275')/fields/$entity",
+    "@odata.etag": "\"3ded0be1-79ed-4f05-91ce-a76cdbb4548f,2\"",
+    "FileLeafRef": "22026724120251029-0001.pdf",
+    "OrganizationalIDNumber": "20267241",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498275",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498275"
+    },
+    "Modified": "2025-10-29T04:55:07Z",
+    "FirstName": "วินัษริน",
+    "LastName": "ชวดชุม",
+    "Created": "2025-10-29T04:55:06Z",
+    "id": "498275",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "22026724120251029-0001.pdf",
+    "LinkFilename": "22026724120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498275",
+    "ParentLeafNameLookupId": "498275"
+  }
+}
+{
+  "timestamp": "2025-10-29T05:03:25.464Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=f01b7885-d8ab-4ea3-b275-ec24a5b43745&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE3ODA1In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLb1o-LQrMs-EAUaDTIwLjE5MC4xNjMuMjkqLEkwdis5YkNKbmFLdkZIMzZsR2dhRlBLWjl3QjI2eXNRWG9vUndkakFKbVU9MJIBOAFCEKHUCGSEgABgHmUoHcBQhW5KEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.D8EqscLNdD5DY3fWn0-7Zo598e7ec9jr7K99kp1kZEU&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T05:03:26Z",
+    "eTag": "\"{F01B7885-D8AB-4EA3-B275-EC24A5B43745},1\"",
+    "id": "01K5TQ4BUFPAN7BK6YUNHLE5PMESS3IN2F",
+    "lastModifiedDateTime": "2025-10-29T05:03:26Z",
+    "name": "31111111120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/11111111/31111111120251029-0001.pdf",
+    "cTag": "\"c:{F01B7885-D8AB-4EA3-B275-EC24A5B43745},1\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BRTU24LRTY7UFBLXW3UBH6ZYTAX",
+      "name": "11111111",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/11111111",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "5Sud3B6RsdffoADfRSAbEFPOmds="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T05:03:26Z",
+      "lastModifiedDateTime": "2025-10-29T05:03:26Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T05:03:26.047Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498277')/fields/$entity",
+    "@odata.etag": "\"f01b7885-d8ab-4ea3-b275-ec24a5b43745,2\"",
+    "FileLeafRef": "31111111120251029-0001.pdf",
+    "OrganizationalIDNumber": "11111111",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498277",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498277"
+    },
+    "Modified": "2025-10-29T05:03:26Z",
+    "Created": "2025-10-29T05:03:26Z",
+    "id": "498277",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "31111111120251029-0001.pdf",
+    "LinkFilename": "31111111120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498277",
+    "ParentLeafNameLookupId": "498277"
+  }
+}
+{
+  "timestamp": "2025-10-29T05:03:29.070Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=0c1e0d21-8a36-4eaa-ab9c-755f73c52615&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE3ODA5In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOboyITRrMs-EAUaDTIwLjE5MC4xNjMuMjgqLG9XR1dGUkdvaU9xM0xYODhlS0E5aHBqVmNBL2cwSDd5L3BvTFF0OXNKM3c9MJIBOAFCEKHUCGVccABgHmUn2L9T-YpKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.xQ93qsjrU5QrLui46Ke2K1Bw9mvqn_0_cz0Bw0EaZfA&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T05:03:28Z",
+    "eTag": "\"{0C1E0D21-8A36-4EAA-AB9C-755F73C52615},1\"",
+    "id": "01K5TQ4BRBBUPAYNUKVJHKXHDVL5Z4KJQV",
+    "lastModifiedDateTime": "2025-10-29T05:03:28Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{0C1E0D21-8A36-4EAA-AB9C-755F73C52615},1\"",
+    "size": 297282,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BUA4GYBD4CETZGLPG53D37IKO3Y",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "aO9b7PFYUXivobLZ0jDgp+ZyAfQ="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T05:03:28Z",
+      "lastModifiedDateTime": "2025-10-29T05:03:28Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T05:03:29.500Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498278')/fields/$entity",
+    "@odata.etag": "\"0c1e0d21-8a36-4eaa-ab9c-755f73c52615,2\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498278",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498278"
+    },
+    "Modified": "2025-10-29T05:03:29Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T05:03:28Z",
+    "id": "498278",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297282",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498278",
+    "ParentLeafNameLookupId": "498278"
+  }
+}
+{
+  "timestamp": "2025-10-29T05:21:35.154Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=d767ad1e-08af-4a54-b8b0-fd91b7bae87c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE4ODk1In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNyu9vmhrcs-EAUaDDQwLjEyNi4zNS44OCosT3BtSk50TjlWampKSkRHUmp2cDkvWGx5akFtR05KWTNUQmlxY2xLVHU1QT0wkgE4AUIQodQJbpMAAFD7qwyVFIxr0koQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.9oaQDfE41zGpZrvMgtKHWq7cih2V8z8N1ksJscGDvGI&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T05:21:35Z",
+    "eTag": "\"{D767AD1E-08AF-4A54-B8B0-FD91B7BAE87C},1\"",
+    "id": "01K5TQ4BQ6VVT5PLYIKRFLRMH5SG33V2D4",
+    "lastModifiedDateTime": "2025-10-29T05:21:35Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{D767AD1E-08AF-4A54-B8B0-FD91B7BAE87C},1\"",
+    "size": 297282,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BWBIT4Z2TN32JB2HFGVON43ECV2",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "aO9b7PFYUXivofJ4nDjrp7ZyAfQ="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T05:21:35Z",
+      "lastModifiedDateTime": "2025-10-29T05:21:35Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T05:21:35.583Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498282')/fields/$entity",
+    "@odata.etag": "\"d767ad1e-08af-4a54-b8b0-fd91b7bae87c,2\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498282",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498282"
+    },
+    "Modified": "2025-10-29T05:21:35Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T05:21:35Z",
+    "id": "498282",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297282",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498282",
+    "ParentLeafNameLookupId": "498282"
+  }
+}
+{
+  "timestamp": "2025-10-29T05:24:03.794Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=299ef230-33e8-4954-a5d9-3247ec8edf1c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE5MDQzIn0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJqQ6oKtrcs-EAUaDTIwLjE5MC4xNjMuMjgqLG9ZWnJaU2UvMjM1bUVzc3FGTmRjUVIzaS9rbHJRNXlmUnhsZktkQjRBeEk9MJIBOAFCEKHUCZLfoABgHmUkEz4b2HlKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.RtUZTCEF5hvtF6Y9I2Cl3GfINF-omWJIHwzi-P4Cs1Y&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T05:24:03Z",
+    "eTag": "\"{299EF230-33E8-4954-A5D9-3247EC8EDF1C},1\"",
+    "id": "01K5TQ4BRQ6KPCT2BTKRE2LWJSI7WI5XY4",
+    "lastModifiedDateTime": "2025-10-29T05:24:03Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{299EF230-33E8-4954-A5D9-3247EC8EDF1C},1\"",
+    "size": 297282,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BQPPU4E5PS4OVEK3CNHXPAKL4GT",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "wbtnab4xwesKbRyBugXSlZ7aqqQ="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T05:24:03Z",
+      "lastModifiedDateTime": "2025-10-29T05:24:03Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T05:24:04.213Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498285')/fields/$entity",
+    "@odata.etag": "\"299ef230-33e8-4954-a5d9-3247ec8edf1c,2\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498285",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498285"
+    },
+    "Modified": "2025-10-29T05:24:04Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T05:24:03Z",
+    "id": "498285",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297282",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498285",
+    "ParentLeafNameLookupId": "498285"
+  }
+}
+{
+  "timestamp": "2025-10-29T05:24:09.879Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=7e996743-b9bc-44c4-8c6a-a3d4f7f34129&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE5MDQ5In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPrC072trcs-EAUaDTQwLjEyNi4zNS4xNTMqLEJPZ0FLZkFrTHl5VXFsVnh1cHR3ZHYvaXVrTVdGN2p1SWdYZDNFSmhWZEU9MJIBOAFCEKHUCZRTgABgHmUppQxInkpKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.e1WlpUKJYoa-YTqraIo5E7HTsWf9s1ojVVfZor3lp4g&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T05:24:09Z",
+    "eTag": "\"{7E996743-B9BC-44C4-8C6A-A3D4F7F34129},1\"",
+    "id": "01K5TQ4BSDM6MX5PFZYRCIY2VD2T37GQJJ",
+    "lastModifiedDateTime": "2025-10-29T05:24:09Z",
+    "name": "32024572920251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245729/32024572920251029-0001.pdf",
+    "cTag": "\"c:{7E996743-B9BC-44C4-8C6A-A3D4F7F34129},1\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BTPZ5YJ4DOPCZC3KEMGKDI6YXUE",
+      "name": "20245729",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245729",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "5Sud3B6RsdffPlbwxCAcEFPOmds="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T05:24:09Z",
+      "lastModifiedDateTime": "2025-10-29T05:24:09Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T05:24:10.315Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498287')/fields/$entity",
+    "@odata.etag": "\"7e996743-b9bc-44c4-8c6a-a3d4f7f34129,2\"",
+    "FileLeafRef": "32024572920251029-0001.pdf",
+    "OrganizationalIDNumber": "20245729",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498287",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498287"
+    },
+    "Modified": "2025-10-29T05:24:10Z",
+    "FirstName": "ขนิษฐวรรณ",
+    "LastName": "ศรีสงเปลือย",
+    "Created": "2025-10-29T05:24:09Z",
+    "id": "498287",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572920251029-0001.pdf",
+    "LinkFilename": "32024572920251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498287",
+    "ParentLeafNameLookupId": "498287"
+  }
+}
+{
+  "timestamp": "2025-10-29T05:24:14.760Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=fdb63495-22b4-418d-bab2-ae6c994c2946&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzE5MDU0In0.CkAKDGVudHJhX2NsYWltcxIwQ01Tc2hzZ0dFQUFhRms5ek9XbDFNbkpMWnpCVGFHRnNiM1o0ZDBVelFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLLc6-utrcs-EAUaDDQwLjEyNi4zNS44OSosc2ZWa3RTUjMxc3pxWXMzZXFMK3BBQ3dVS2JuMlFnaUxiazExWDlubEJFdz0wkgE4AUIQodQJlYoAAGAeZSTaWuZaQ0oQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.KLeSIO7AsicG4S7le59c9HtgQjMAVmW_VDlJFtrWVHo&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T05:24:14Z",
+    "eTag": "\"{FDB63495-22B4-418D-BAB2-AE6C994C2946},1\"",
+    "id": "01K5TQ4BUVGS3P3NBCRVA3VMVONSMUYKKG",
+    "lastModifiedDateTime": "2025-10-29T05:24:14Z",
+    "name": "32026724120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20267241/32026724120251029-0001.pdf",
+    "cTag": "\"c:{FDB63495-22B4-418D-BAB2-AE6C994C2946},1\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BSMGJELU327EFBIIJFHFIS73J4O",
+      "name": "20267241",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20267241",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "5Sud3B6Rsdff/mGuRyMYEFPOmds="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T05:24:14Z",
+      "lastModifiedDateTime": "2025-10-29T05:24:14Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T05:24:15.171Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498289')/fields/$entity",
+    "@odata.etag": "\"fdb63495-22b4-418d-bab2-ae6c994c2946,2\"",
+    "FileLeafRef": "32026724120251029-0001.pdf",
+    "OrganizationalIDNumber": "20267241",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498289",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498289"
+    },
+    "Modified": "2025-10-29T05:24:15Z",
+    "FirstName": "วินัษริน",
+    "LastName": "ชวดชุม",
+    "Created": "2025-10-29T05:24:14Z",
+    "id": "498289",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32026724120251029-0001.pdf",
+    "LinkFilename": "32026724120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498289",
+    "ParentLeafNameLookupId": "498289"
+  }
+}
+{
+  "timestamp": "2025-10-29T07:22:36.947Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=4c660035-0910-4b85-8e6f-691228d80e98&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzI2MTU2In0.CkAKDGVudHJhX2NsYWltcxIwQ0lmL2hzZ0dFQUFhRmpjMVJXeGtSalp5WW1zdFZGZDFjMHRCTUVORFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJi0mv--scs-EAUaDTQwLjEyNi4zNS4xNTMqLFJTakhZc2kxblhXSmR3V1VKZ1ltbzc4YUh4emhUSHlJOHdZb2NmcjlKTWM9MJIBOAFCEKHUEFtDgABQ-6sM74mYDidKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.bXAGpHLjlxRi116MVdI7CPhlJTRhgEqy1VQq0a3BMTA&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:22:36Z",
+    "eTag": "\"{4C660035-0910-4B85-8E6F-691228D80E98},1\"",
+    "id": "01K5TQ4BRVABTEYEAJQVFY433JCIUNQDUY",
+    "lastModifiedDateTime": "2025-10-29T07:22:36Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{4C660035-0910-4B85-8E6F-691228D80E98},1\"",
+    "size": 297282,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BWN5HSRZV4F3JALJHKC2XDRBJDA",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "aO9b7PFYUXivkfy42/j9p+ZyAfQ="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:22:36Z",
+      "lastModifiedDateTime": "2025-10-29T07:22:36Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T07:22:38.018Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498292')/fields/$entity",
+    "@odata.etag": "\"4c660035-0910-4b85-8e6f-691228d80e98,2\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498292",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498292"
+    },
+    "Modified": "2025-10-29T07:22:38Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T07:22:36Z",
+    "id": "498292",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297282",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498292",
+    "ParentLeafNameLookupId": "498292"
+  }
+}
+{
+  "timestamp": "2025-10-29T07:22:46.269Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=a8e74e88-08b2-4f12-8e4c-2469a9b9fa7e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzI2MTY2In0.CkAKDGVudHJhX2NsYWltcxIwQ0lmL2hzZ0dFQUFhRmpjMVJXeGtSalp5WW1zdFZGZDFjMHRCTUVORFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMCqote_scs-EAUaDDQwLjEyNi4zNS44OCosUmtxZnVISzh6cThTZTNiNGFIMXVZZUc5TVBQOElISnkxQWF6eXNBK1pzWT0wkgE4AUIQodQQXbVwAGAeZSg9GLhmFkoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.H_SS5STdt0su5_tfh7PDmNeZg51RNE6mw39gus9pisM&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:22:46Z",
+    "eTag": "\"{A8E74E88-08B2-4F12-8E4C-2469A9B9FA7E},1\"",
+    "id": "01K5TQ4BUIJ3T2RMQICJHY4TBENGU3T6T6",
+    "lastModifiedDateTime": "2025-10-29T07:22:46Z",
+    "name": "32026724120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20267241/32026724120251029-0001.pdf",
+    "cTag": "\"c:{A8E74E88-08B2-4F12-8E4C-2469A9B9FA7E},1\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BVWF2WQV6GOYRGIRQ5JXWNATEPX",
+      "name": "20267241",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20267241",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "5Sud3B6RsdffdmONRCIdEHPQlNs="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:22:46Z",
+      "lastModifiedDateTime": "2025-10-29T07:22:46Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T07:22:46.740Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498294')/fields/$entity",
+    "@odata.etag": "\"a8e74e88-08b2-4f12-8e4c-2469a9b9fa7e,2\"",
+    "FileLeafRef": "32026724120251029-0001.pdf",
+    "OrganizationalIDNumber": "20267241",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498294",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498294"
+    },
+    "Modified": "2025-10-29T07:22:47Z",
+    "FirstName": "วินัษริน",
+    "LastName": "ชวดชุม",
+    "Created": "2025-10-29T07:22:46Z",
+    "id": "498294",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32026724120251029-0001.pdf",
+    "LinkFilename": "32026724120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498294",
+    "ParentLeafNameLookupId": "498294"
+  }
+}
+{
+  "timestamp": "2025-10-29T07:37:21.952Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=f961502e-4e0a-4251-9839-8f05fd51d70e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzI3MDQxIn0.CkAKDGVudHJhX2NsYWltcxIwQ0lmL2hzZ0dFQUFhRmpjMVJXeGtSalp5WW1zdFZGZDFjMHRCTUVORFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCObNoviAsss-EAUaDTQwLjEyNi4zNS4xNTMqLEpHcWo1TXFBanBNZkVucTJvTThyTnpHNFErM3hCaUtjdzhxdHYzdFNBZkE9MJIBOAFCEKHUETN3MABgHmUpUZovFW1KEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.OsvK1KJpNnR9zS5nNmGlYcG1WR47eJwr-Uj6kg9maHc&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:37:21Z",
+    "eTag": "\"{F961502E-4E0A-4251-9839-8F05FD51D70E},1\"",
+    "id": "01K5TQ4BROKBQ7SCSOKFBJQOMPAX6VDVYO",
+    "lastModifiedDateTime": "2025-10-29T07:37:21Z",
+    "name": "32023924020251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20239240/32023924020251029-0001.pdf",
+    "cTag": "\"c:{F961502E-4E0A-4251-9839-8F05FD51D70E},1\"",
+    "size": 166236,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BQLKDZ45TYTQ5HJGHT47PZOLAG3",
+      "name": "20239240",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20239240",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "t0mhvYP6bFUf/X+P/2ZFybpeKa0="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:37:21Z",
+      "lastModifiedDateTime": "2025-10-29T07:37:21Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T07:37:22.562Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498297')/fields/$entity",
+    "@odata.etag": "\"f961502e-4e0a-4251-9839-8f05fd51d70e,2\"",
+    "FileLeafRef": "32023924020251029-0001.pdf",
+    "OrganizationalIDNumber": "20239240",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498297",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498297"
+    },
+    "Modified": "2025-10-29T07:37:22Z",
+    "FirstName": "ปิยะธิดา",
+    "LastName": "ดัชถุยาวัตร",
+    "Created": "2025-10-29T07:37:21Z",
+    "id": "498297",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32023924020251029-0001.pdf",
+    "LinkFilename": "32023924020251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "166236",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498297",
+    "ParentLeafNameLookupId": "498297"
+  }
+}
+{
+  "timestamp": "2025-10-29T07:37:27.567Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=87ac8869-4bdf-4ef3-b929-cf67148fcd06&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzI3MDQ3In0.CkAKDGVudHJhX2NsYWltcxIwQ0lmL2hzZ0dFQUFhRmpjMVJXeGtSalp5WW1zdFZGZDFjMHRCTUVORFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCK7Mka6Bsss-EAUaDTIwLjE5MC4xNjMuOTYqLDlHc2hvZ0xQQUxOQ3EzM2NLWEtVT2ZtVzJhMi9XTTdJMm1ZN3Q1Vm5ucmc9MJIBOAFCEKHUETTXMABgHmUmU0zwvtdKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.BWNVdbivA_8KmcTWsuuexTuV0dHVy4R9lnQYeFsCS-M&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:37:27Z",
+    "eTag": "\"{87AC8869-4BDF-4EF3-B929-CF67148FCD06},1\"",
+    "id": "01K5TQ4BTJRCWIPX2L6NHLSKOPM4KI7TIG",
+    "lastModifiedDateTime": "2025-10-29T07:37:27Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{87AC8869-4BDF-4EF3-B929-CF67148FCD06},1\"",
+    "size": 297282,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BQAATBLIWEFMBGIC7LCO7HUPNET",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "+KTJKQz6c7Nzg19jln17S4DVgHU="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:37:27Z",
+      "lastModifiedDateTime": "2025-10-29T07:37:27Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T07:37:28.063Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498299')/fields/$entity",
+    "@odata.etag": "\"87ac8869-4bdf-4ef3-b929-cf67148fcd06,2\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498299",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498299"
+    },
+    "Modified": "2025-10-29T07:37:29Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T07:37:27Z",
+    "id": "498299",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297282",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498299",
+    "ParentLeafNameLookupId": "498299"
+  }
+}
+{
+  "timestamp": "2025-10-29T07:37:34.866Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=bba954fc-483c-4680-bdc7-025369dbe7ae&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzI3MDU0In0.CkAKDGVudHJhX2NsYWltcxIwQ0lmL2hzZ0dFQUFhRmpjMVJXeGtSalp5WW1zdFZGZDFjMHRCTUVORFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNin3_OBsss-EAUaDDQwLjEyNi4zNS44OCosQkczYnZ4OWNoQm9NbnRLK0RWZGdWZDZTeFNLNDdQSmZSWXE5OEkyT0ltbz0wkgE4AUIQodQRNpWgAGAeZSCs23RHr0oQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.PEDiBVY_kGTw9Oyg-84Xmkc3-hgg3E0xsdI5uCrpv9A&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:37:35Z",
+    "eTag": "\"{BBA954FC-483C-4680-BDC7-025369DBE7AE},1\"",
+    "id": "01K5TQ4BX4KSU3WPCIQBDL3RYCKNU5XZ5O",
+    "lastModifiedDateTime": "2025-10-29T07:37:35Z",
+    "name": "32026724120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20267241/32026724120251029-0001.pdf",
+    "cTag": "\"c:{BBA954FC-483C-4680-BDC7-025369DBE7AE},1\"",
+    "size": 657322,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BWGT4ULKFNYWRCKQEZ6O5352I5E",
+      "name": "20267241",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20267241",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "yEnArLV1lOJGt2eLHUpf1bHispc="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:37:35Z",
+      "lastModifiedDateTime": "2025-10-29T07:37:35Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T07:37:35.355Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498301')/fields/$entity",
+    "@odata.etag": "\"bba954fc-483c-4680-bdc7-025369dbe7ae,2\"",
+    "FileLeafRef": "32026724120251029-0001.pdf",
+    "OrganizationalIDNumber": "20267241",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498301",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498301"
+    },
+    "Modified": "2025-10-29T07:37:35Z",
+    "FirstName": "วินัษริน",
+    "LastName": "ชวดชุม",
+    "Created": "2025-10-29T07:37:35Z",
+    "id": "498301",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32026724120251029-0001.pdf",
+    "LinkFilename": "32026724120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657322",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498301",
+    "ParentLeafNameLookupId": "498301"
+  }
+}
+{
+  "timestamp": "2025-10-29T08:35:07.767Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=f961502e-4e0a-4251-9839-8f05fd51d70e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzMwNTA3In0.CkAKDGVudHJhX2NsYWltcxIwQ0ltaGg4Z0dFQUFhRmpnMlozcENRbGhNU2xVMmFWbGhZMWxPYVMxUFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMLssJSDtMs-EAUaDTIwLjE5MC4xNjMuOTYqLEpHcWo1TXFBanBNZkVucTJvTThyTnpHNFErM3hCaUtjdzhxdHYzdFNBZkE9MJIBOAFCEKHUFIG3wABgHmUkKsqZK3NKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.Mmfa7U8Nz5vc8We_v0CkwE8mrUcOMUattTbxkwMRmT8&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:37:21Z",
+    "eTag": "\"{F961502E-4E0A-4251-9839-8F05FD51D70E},3\"",
+    "id": "01K5TQ4BROKBQ7SCSOKFBJQOMPAX6VDVYO",
+    "lastModifiedDateTime": "2025-10-29T08:35:07Z",
+    "name": "32023924020251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20239240/32023924020251029-0001.pdf",
+    "cTag": "\"c:{F961502E-4E0A-4251-9839-8F05FD51D70E},2\"",
+    "size": 166236,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BQLKDZ45TYTQ5HJGHT47PZOLAG3",
+      "name": "20239240",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20239240",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "kByFUR2GBRf8O2mojUx11pOblko="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:37:21Z",
+      "lastModifiedDateTime": "2025-10-29T08:35:07Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T08:35:08.274Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498297')/fields/$entity",
+    "@odata.etag": "\"f961502e-4e0a-4251-9839-8f05fd51d70e,4\"",
+    "FileLeafRef": "32023924020251029-0001.pdf",
+    "OrganizationalIDNumber": "20239240",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498297",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498297"
+    },
+    "Modified": "2025-10-29T08:35:08Z",
+    "FirstName": "ปิยะธิดา",
+    "LastName": "ดัชถุยาวัตร",
+    "Created": "2025-10-29T07:37:21Z",
+    "id": "498297",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32023924020251029-0001.pdf",
+    "LinkFilename": "32023924020251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "166236",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "4.0",
+    "ParentVersionStringLookupId": "498297",
+    "ParentLeafNameLookupId": "498297"
+  }
+}
+{
+  "timestamp": "2025-10-29T08:35:11.677Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=87ac8869-4bdf-4ef3-b929-cf67148fcd06&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzMwNTExIn0.CkAKDGVudHJhX2NsYWltcxIwQ0ltaGg4Z0dFQUFhRmpnMlozcENRbGhNU2xVMmFWbGhZMWxPYVMxUFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCL7P5LiDtMs-EAUaDDQwLjEyNi4zNS44OCosOUdzaG9nTFBBTE5DcTMzY0tYS1VPZm1XMmEyL1dNN0kybVk3dDVWbm5yZz0wkgE4AUIQodQUgqVgAGAeZS99Pzmb3koQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.zFla8nzVLrJBaf92AgbgpvGXBQxUVkycGuXX1kRS4ws&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:37:27Z",
+    "eTag": "\"{87AC8869-4BDF-4EF3-B929-CF67148FCD06},3\"",
+    "id": "01K5TQ4BTJRCWIPX2L6NHLSKOPM4KI7TIG",
+    "lastModifiedDateTime": "2025-10-29T08:35:11Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{87AC8869-4BDF-4EF3-B929-CF67148FCD06},2\"",
+    "size": 297283,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BQAATBLIWEFMBGIC7LCO7HUPNET",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "etkjTwUxZlzIkaoEhLVLWfw5t9U="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:37:27Z",
+      "lastModifiedDateTime": "2025-10-29T08:35:11Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T08:35:12.198Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498299')/fields/$entity",
+    "@odata.etag": "\"87ac8869-4bdf-4ef3-b929-cf67148fcd06,4\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498299",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498299"
+    },
+    "Modified": "2025-10-29T08:35:11Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T07:37:27Z",
+    "id": "498299",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297283",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "4.0",
+    "ParentVersionStringLookupId": "498299",
+    "ParentLeafNameLookupId": "498299"
+  }
+}
+{
+  "timestamp": "2025-10-29T08:35:17.901Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=bba954fc-483c-4680-bdc7-025369dbe7ae&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzMwNTE3In0.CkAKDGVudHJhX2NsYWltcxIwQ0ltaGg4Z0dFQUFhRmpnMlozcENRbGhNU2xVMmFWbGhZMWxPYVMxUFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKiB9PSDtMs-EAUaDTQwLjEyNi4zNS4xNTMqLEJHM2J2eDljaEJvTW50SytEVmRnVmQ2U3hTSzQ3UEpmUllxOThJMk9JbW89MJIBOAFCEKHUFIQrcABgHmUvixjF-jBKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.4JeIPTr50y_w9zJcJv74VbEZOgKJbFooUGHHc8iTSYg&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T07:37:35Z",
+    "eTag": "\"{BBA954FC-483C-4680-BDC7-025369DBE7AE},3\"",
+    "id": "01K5TQ4BX4KSU3WPCIQBDL3RYCKNU5XZ5O",
+    "lastModifiedDateTime": "2025-10-29T08:35:17Z",
+    "name": "32026724120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20267241/32026724120251029-0001.pdf",
+    "cTag": "\"c:{BBA954FC-483C-4680-BDC7-025369DBE7AE},2\"",
+    "size": 657323,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BWGT4ULKFNYWRCKQEZ6O5352I5E",
+      "name": "20267241",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20267241",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "5Sud3B6RsdffpvErxyMREHPQlNs="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T07:37:35Z",
+      "lastModifiedDateTime": "2025-10-29T08:35:17Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T08:35:18.480Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498301')/fields/$entity",
+    "@odata.etag": "\"bba954fc-483c-4680-bdc7-025369dbe7ae,4\"",
+    "FileLeafRef": "32026724120251029-0001.pdf",
+    "OrganizationalIDNumber": "20267241",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498301",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498301"
+    },
+    "Modified": "2025-10-29T08:35:18Z",
+    "FirstName": "วินัษริน",
+    "LastName": "ชวดชุม",
+    "Created": "2025-10-29T07:37:35Z",
+    "id": "498301",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32026724120251029-0001.pdf",
+    "LinkFilename": "32026724120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657323",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "4.0",
+    "ParentVersionStringLookupId": "498301",
+    "ParentLeafNameLookupId": "498301"
+  }
+}
+{
+  "timestamp": "2025-10-29T10:00:11.402Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=6eeffc70-c487-4ef1-8617-93e68cffa2eb&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzM1NjExIn0.CkAKDGVudHJhX2NsYWltcxIwQ1BiSWg4Z0dFQUFhRm5BMFFWcHpORzAxYUVVdFQyazNWRlJvUzJWTFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJzpibT_tss-EAUaDDQwLjEyNi4zNS44OSosSGwweWNua256aXEzRm1oYndicmduUjhDcHo5VUhWa3RQd05BNDQyYkVoMD0wkgE4AUIQodQZX5JwAGAeZSq5mbUfKEoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.XySjRBDU0__wZT6hI-mRwUGTP9d_l6q12mvwgzn_nak&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T10:00:10Z",
+    "eTag": "\"{6EEFFC70-C487-4EF1-8617-93E68CFFA2EB},1\"",
+    "id": "01K5TQ4BTQ7TXW5B6E6FHIMF4T42GP7IXL",
+    "lastModifiedDateTime": "2025-10-29T10:00:10Z",
+    "name": "32023924020251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20239240/32023924020251029-0001.pdf",
+    "cTag": "\"c:{6EEFFC70-C487-4EF1-8617-93E68CFFA2EB},1\"",
+    "size": 166236,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BV4MMMIBA5F45AZCNQUVFHHEIW3",
+      "name": "20239240",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20239240",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "C02l7kHHGiLBxsz+Imw27exo1CI="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T10:00:10Z",
+      "lastModifiedDateTime": "2025-10-29T10:00:10Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T10:00:12.631Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498304')/fields/$entity",
+    "@odata.etag": "\"6eeffc70-c487-4ef1-8617-93e68cffa2eb,2\"",
+    "FileLeafRef": "32023924020251029-0001.pdf",
+    "OrganizationalIDNumber": "20239240",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498304",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498304"
+    },
+    "Modified": "2025-10-29T10:00:13Z",
+    "FirstName": "ปิยะธิดา",
+    "LastName": "ดัชถุยาวัตร",
+    "Created": "2025-10-29T10:00:10Z",
+    "id": "498304",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32023924020251029-0001.pdf",
+    "LinkFilename": "32023924020251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "166236",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498304",
+    "ParentLeafNameLookupId": "498304"
+  }
+}
+{
+  "timestamp": "2025-10-29T10:00:17.051Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=c8f78d8a-b5ec-45d1-91ca-23f9a6bdd98f&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzM1NjE3In0.CkAKDGVudHJhX2NsYWltcxIwQ1BiSWg4Z0dFQUFhRm5BMFFWcHpORzAxYUVVdFQyazNWRlJvUzJWTFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOiMtur_tss-EAUaDTQwLjEyNi4zNS4xNTMqLFJhT0ZRbHdIOHJTRjhIS1JuUUlUUkxhNU1LeVovcGhuL0cvdURKalVkYzA9MJIBOAFCEKHUGWET4ABgMDLVOp4hXRVKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.ogCVwFJOCQq1dn5hcWykFOC0ANEesDija_ccyxG7ZuY&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T10:00:17Z",
+    "eTag": "\"{C8F78D8A-B5EC-45D1-91CA-23F9A6BDD98F},1\"",
+    "id": "01K5TQ4BUKRX34R3FV2FCZDSRD7GTL3WMP",
+    "lastModifiedDateTime": "2025-10-29T10:00:17Z",
+    "name": "32024572820251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20245728/32024572820251029-0001.pdf",
+    "cTag": "\"c:{C8F78D8A-B5EC-45D1-91CA-23F9A6BDD98F},1\"",
+    "size": 297283,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BWYAKCJG6W6DBDYBFBXKKRLTMTD",
+      "name": "20245728",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20245728",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "OJpYXUikJ9NTyaxeGOrvuCN2gs4="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T10:00:17Z",
+      "lastModifiedDateTime": "2025-10-29T10:00:17Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T10:00:17.583Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498306')/fields/$entity",
+    "@odata.etag": "\"c8f78d8a-b5ec-45d1-91ca-23f9a6bdd98f,2\"",
+    "FileLeafRef": "32024572820251029-0001.pdf",
+    "OrganizationalIDNumber": "20245728",
+    "DocType": "New",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498306",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498306"
+    },
+    "Modified": "2025-10-29T10:00:17Z",
+    "FirstName": "รุจิภาส",
+    "LastName": "ช่อฟ้า",
+    "Created": "2025-10-29T10:00:17Z",
+    "id": "498306",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32024572820251029-0001.pdf",
+    "LinkFilename": "32024572820251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "297283",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498306",
+    "ParentLeafNameLookupId": "498306"
+  }
+}
+{
+  "timestamp": "2025-10-29T10:00:25.301Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=4bc44e3c-9336-4dc0-9b1e-122da3a516ff&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzM1NjI1In0.CkAKDGVudHJhX2NsYWltcxIwQ1BiSWg4Z0dFQUFhRm5BMFFWcHpORzAxYUVVdFQyazNWRlJvUzJWTFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCO7yjLmAt8s-EAUaDTIwLjE5MC4xNjMuOTYqLFlvOXl3aHNzc3d6VDRSYlBRa0pnS1hRbmhybWhRYmJkNzk0VzlvanV5elE9MJIBOAFCEKHUGWMFAABgHmUheFL4kABKEGhhc2hlZHByb29mdG9rZW56ATG6AS5hbGxzaXRlcy53cml0ZSBhbGxmaWxlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkyAEB.sr_aAAYkaCfwxp5zWiL9vrziRBNMNW93Z2ZLxdimD6A&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T10:00:25Z",
+    "eTag": "\"{4BC44E3C-9336-4DC0-9B1E-122DA3A516FF},1\"",
+    "id": "01K5TQ4BR4J3CEWNUTYBGZWHQSFWR2KFX7",
+    "lastModifiedDateTime": "2025-10-29T10:00:25Z",
+    "name": "32026724120251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20267241/32026724120251029-0001.pdf",
+    "cTag": "\"c:{4BC44E3C-9336-4DC0-9B1E-122DA3A516FF},1\"",
+    "size": 657321,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BSQEUPLLJGT5FH2V7JPTU7IJXQE",
+      "name": "20267241",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20267241",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "lmnALLXiJhV/vKB6frEsaTxsqWs="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T10:00:25Z",
+      "lastModifiedDateTime": "2025-10-29T10:00:25Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T10:00:25.832Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498308')/fields/$entity",
+    "@odata.etag": "\"4bc44e3c-9336-4dc0-9b1e-122da3a516ff,2\"",
+    "FileLeafRef": "32026724120251029-0001.pdf",
+    "OrganizationalIDNumber": "20267241",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498308",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498308"
+    },
+    "Modified": "2025-10-29T10:00:26Z",
+    "FirstName": "วินัษริน",
+    "LastName": "ชวดชุม",
+    "Created": "2025-10-29T10:00:25Z",
+    "id": "498308",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32026724120251029-0001.pdf",
+    "LinkFilename": "32026724120251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657321",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498308",
+    "ParentLeafNameLookupId": "498308"
+  }
+}
+{
+  "timestamp": "2025-10-29T10:15:29.440Z",
+  "endpoint": "uploadPdfToSP",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/drives('b%218nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K')/root/$entity",
+    "@microsoft.graph.downloadUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/_layouts/15/download.aspx?UniqueId=301ea967-8815-4b33-8fa0-3d2d39b54060&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZWVkNzVmMi0yNzQ1LTRkODgtOWQyMS05NDZiYWZiYTg0YjciLCJhcHBfZGlzcGxheW5hbWUiOiJIUklTIE9BdXRoIEhSIEF1dG9tYXRpb24iLCJuYW1laWQiOiIxNDg3YmMwNC0wZDU4LTQyNmEtOTBhNS0xY2YwNWRmZjUwZmZAODE3ZTUzMWQtMTkxYi00Y2Y1LTg4MTItZjAwNjFkODliNTNkIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2NlbnRyYWxncm91cC5zaGFyZXBvaW50LmNvbUA4MTdlNTMxZC0xOTFiLTRjZjUtODgxMi1mMDA2MWQ4OWI1M2QiLCJleHAiOiIxNzYxNzM2NTI5In0.CkAKDGVudHJhX2NsYWltcxIwQ1BiSWg4Z0dFQUFhRm5BMFFWcHpORzAxYUVVdFQyazNWRlJvUzJWTFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCK7y7ebDt8s-EAUaDDQwLjEyNi4zNS44OCosR1hnMHFOQjVRMlRzTVNXT0pIbk9hQ1RYNnVNY0Y1cHEySUtqMkFPQ0dNMD0wkgE4AUIQodQaP8RQAGAeZS_a7j4XVkoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBLmFsbHNpdGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHByb2ZpbGVzLnJlYWTIAQE.P3YLRPb5yCXG5n57n0Bx0BTl4fjCS1oBxt2J-ilsO7Q&ApiVersion=2.0",
+    "createdDateTime": "2025-10-29T10:15:29Z",
+    "eTag": "\"{301EA967-8815-4B33-8FA0-3D2D39B54060},1\"",
+    "id": "01K5TQ4BTHVEPDAFMIGNFY7IB5FU43KQDA",
+    "lastModifiedDateTime": "2025-10-29T10:15:29Z",
+    "name": "32001786320251029-0001.pdf",
+    "webUrl": "https://centralgroup.sharepoint.com/sites/CG%20HR%20eDocuments/eDocuments/SIT/20017863/32001786320251029-0001.pdf",
+    "cTag": "\"c:{301EA967-8815-4B33-8FA0-3D2D39B54060},1\"",
+    "size": 657329,
+    "createdBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "lastModifiedBy": {
+      "application": {
+        "id": "1487bc04-0d58-426a-90a5-1cf05dff50ff",
+        "displayName": "Microsoft Graph"
+      },
+      "user": {
+        "displayName": "SharePoint App"
+      }
+    },
+    "parentReference": {
+      "driveType": "documentLibrary",
+      "driveId": "b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K",
+      "id": "01K5TQ4BW4ZMVT23YKBRD2ZFPLPYTISDLZ",
+      "name": "20017863",
+      "path": "/drives/b!8nXtDkUniE2dIZRrr7qEt33lqIQdMRBFiOX79f-MYIE3BcFVeW8RQbPvTt43D19K/root:/SIT/20017863",
+      "siteId": "0eed75f2-2745-4d88-9d21-946bafba84b7"
+    },
+    "file": {
+      "mimeType": "application/pdf",
+      "hashes": {
+        "quickXorHash": "g5C7v1BbLRLiUjHxikol0CnYats="
+      }
+    },
+    "fileSystemInfo": {
+      "createdDateTime": "2025-10-29T10:15:29Z",
+      "lastModifiedDateTime": "2025-10-29T10:15:29Z"
+    },
+    "shared": {
+      "scope": "users"
+    }
+  }
+}
+{
+  "timestamp": "2025-10-29T10:15:29.908Z",
+  "endpoint": "patchSPMetadata",
+  "response": {
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('centralgroup.sharepoint.com%2C0eed75f2-2745-4d88-9d21-946bafba84b7%2C84a8e57d-311d-4510-88e5-fbf5ff8c6081')/lists('eDocuments')/items('498310')/fields/$entity",
+    "@odata.etag": "\"301ea967-8815-4b33-8fa0-3d2d39b54060,2\"",
+    "FileLeafRef": "32001786320251029-0001.pdf",
+    "OrganizationalIDNumber": "20017863",
+    "DocType": "Transfer",
+    "ScanBy": "20241333",
+    "_dlc_DocIdUrl": {
+      "Description": "KNJNS7CFQ4RH-663031960-498310",
+      "Url": "https://centralgroup.sharepoint.com/sites/CG HR eDocuments/_layouts/15/DocIdRedir.aspx?ID=KNJNS7CFQ4RH-663031960-498310"
+    },
+    "Modified": "2025-10-29T10:15:30Z",
+    "FirstName": "นพวรรณ",
+    "LastName": "ชายน้ำเค็ม",
+    "Created": "2025-10-29T10:15:29Z",
+    "id": "498310",
+    "ContentType": "Document",
+    "AuthorLookupId": "1073741822",
+    "EditorLookupId": "1073741822",
+    "_CheckinComment": "",
+    "LinkFilenameNoMenu": "32001786320251029-0001.pdf",
+    "LinkFilename": "32001786320251029-0001.pdf",
+    "DocIcon": "pdf",
+    "FileSizeDisplay": "657329",
+    "ItemChildCount": "0",
+    "FolderChildCount": "0",
+    "_ComplianceFlags": "",
+    "_ComplianceTag": "",
+    "_ComplianceTagWrittenTime": "",
+    "_ComplianceTagUserId": "",
+    "_CommentCount": "",
+    "_LikeCount": "",
+    "_DisplayName": "",
+    "AppAuthorLookupId": "55",
+    "AppEditorLookupId": "55",
+    "Edit": "0",
+    "_UIVersionString": "2.0",
+    "ParentVersionStringLookupId": "498310",
+    "ParentLeafNameLookupId": "498310"
+  }
+}

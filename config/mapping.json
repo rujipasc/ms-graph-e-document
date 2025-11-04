@@ -1,0 +1,17 @@
+{
+  "role": {
+    "ex": "Executive",
+    "cpn": "CPN",
+    "g": "General",
+    "cmg": "CMG Handicap",
+    "hr": "CG HR",
+    "sit": "SIT"
+  },
+  "event": {
+    "N": "New",
+    "T": "Transfer",
+    "P": "Promoted/SA/Allowance",
+    "R": "Resigned",
+    "DC": "Data Changed"
+  }
+}

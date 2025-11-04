@@ -1,0 +1,17 @@
+Date,Team,FileName,EmpID,ScanBy,ErrorType,Message
+2025-10-27T09:30:41.346Z;EDOC-SIT;20197739_20005808_SIT_N.zip;20197739;20005808;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20197739_20005808_SIT_N.zip
+2025-10-27T10:07:33.474Z;EDOC-SIT;20197739_20245728_SIT_N.zip;20197739;20245728;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20197739_20245728_SIT_N.zip
+2025-10-27T10:18:36.709Z;EDOC-SIT;20197739_20245728_SIT_N.zip;20197739;20245728;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20197739_20245728_SIT_N.zip
+2025-10-27T10:22:37.691Z;EDOC-SIT;20197739_20245728_SIT_N.zip;20197739;20245728;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20197739_20245728_SIT_N.zip
+2025-10-27T10:31:31.322Z;EDOC-SIT;20197739_20245728_SIT_N.zip;20197739;20245728;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20197739_20245728_SIT_N.zip
+2025-10-29T04:55:03.502Z;EDOC-SIT;20267241_20241333_SIT_P.zip;20267241;20241333;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20267241_20241333_SIT_P.zip
+2025-10-29T05:23:58.721Z;EDOC-SIT;11111111_20241333_SIT_T.zip;11111111;20241333;EmpNotFound;❌ Employee not found: 11111111
+2025-10-29T05:24:11.330Z;EDOC-SIT;20267241_20241333_SIT_P.zip;20267241;20241333;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20267241_20241333_SIT_P.zip
+2025-10-29T07:22:30.308Z;EDOC-SIT;11111111_20241333_SIT_T.zip;11111111;20241333;EmpNotFound;❌ Employee not found: 11111111
+2025-10-29T07:22:42.482Z;EDOC-SIT;20267241_20241333_SIT_P.zip;20267241;20241333;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20267241_20241333_SIT_P.zip
+2025-10-29T07:37:17.775Z;EDOC-SIT;11111111_20241333_SIT_T.zip;11111111;20241333;EmpNotFound;❌ Employee not found: 11111111
+2025-10-29T07:37:30.905Z;EDOC-SIT;20267241_20241333_SIT_P.zip;20267241;20241333;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20267241_20241333_SIT_P.zip
+2025-10-29T08:35:04.447Z;EDOC-SIT;11111111_20241333_SIT_T.zip;11111111;20241333;EmpNotFound;❌ Employee not found: 11111111
+2025-10-29T08:35:14.656Z;EDOC-SIT;20267241_20241333_SIT_P.zip;20267241;20241333;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20267241_20241333_SIT_P.zip
+2025-10-29T10:00:06.584Z;EDOC-SIT;11111111_20241333_SIT_T.zip;11111111;20241333;EmpNotFound;❌ Employee not found: 11111111
+2025-10-29T10:00:21.061Z;EDOC-SIT;20267241_20241333_SIT_P.zip;20267241;20241333;ZipPassword;Zip file is password-protected: /Users/rujipas.c/Desktop/sandbox/project-spd-edoc/staging/EDOC-SIT/20267241_20241333_SIT_P.zip

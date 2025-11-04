@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Angoon",
+    "team_folder": "SPD03",
+    "hasWrapper": true
+  },
+  {
+    "label": "Mai",
+    "team_folder": "SPD04",
+    "hasWrapper": true
+  },
+  {
+    "label": "Ae",
+    "team_folder": "SPD01",
+    "hasWrapper": true
+  },
+  {
+    "label": "Kob",
+    "team_folder": "SPD07",
+    "hasWrapper": true
+  },
+  {
+    "label": "Pum",
+    "team_folder": "SPD02",
+    "hasWrapper": true
+  },
+  {
+    "label": "Waew",
+    "team_folder": "SPD06",
+    "hasWrapper": true
+  },
+  {
+    "label": "Wi",
+    "team_folder": "SPD05",
+    "hasWrapper": true
+  },
+  {
+    "label": "SIT",
+    "team_folder": "EDOC-SIT",
+    "hasWrapper": true
+  }
+]
