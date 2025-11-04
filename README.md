@@ -238,5 +238,8 @@ sequenceDiagram
     Node->>Mail: ✉️ Send summary email with CSV (Success/Fail counts)
     Node->>OneDrive: 🧹 Cleanup staging & temp folders
     Node-->>Node: ✅ Pipeline completed
+```
+
+---
 
 Thank you for using the SPD eDocument Automation pipeline. For issues or enhancement requests, reach out to the HRIS team or the development maintainers.
