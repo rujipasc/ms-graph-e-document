@@ -6,19 +6,29 @@ const ENCRYPTED_PDF_MESSAGE =
   "PDF file is encrypted or password-protected. Please re-scan or export without password.";
 const ENCRYPTION_ERROR_SIGNATURE =
   "Input document to `PDFDocument.load` is encrypted";
+const ALLOW_IGNORE_ENCRYPTED_PDF =
+  String(process.env.ALLOW_IGNORE_ENCRYPTED_PDF || "").toLowerCase() === "true";
 
 const loadPdfWithFallback = async (bytes, filePath) => {
   try {
     return await PDFDocument.load(bytes);
   } catch (error) {
     if (error?.message?.includes(ENCRYPTION_ERROR_SIGNATURE)) {
+      if (!ALLOW_IGNORE_ENCRYPTED_PDF) {
+        logger.warn(`🔐 ${filePath} is encrypted. Merge aborted.`);
+        const encryptedError = new Error(ENCRYPTED_PDF_MESSAGE);
+        encryptedError.code = "PDF_ENCRYPTED";
+        throw encryptedError;
+      }
+
       logger.warn(
-        `🔐 ${filePath} flagged as encrypted. Retrying with ignoreEncryption...`
+        `🔐 ${filePath} flagged as encrypted. Retrying with ignoreEncryption (may produce blank output)...`
       );
       try {
         return await PDFDocument.load(bytes, { ignoreEncryption: true });
       } catch (retryError) {
         retryError.message = ENCRYPTED_PDF_MESSAGE;
+        retryError.code = "PDF_ENCRYPTED";
         throw retryError;
       }
     }

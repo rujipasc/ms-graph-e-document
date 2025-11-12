@@ -36,6 +36,3 @@ export const getUserByEmployeeId = async (empID) => {
         );
     }
 };
-
-const result = await getUserByEmployeeId('20245728');
-console.log(result);
