@@ -11,16 +11,14 @@ const stagingDir = path.join(process.cwd(), 'staging');
 await fs.ensureDir(stagingDir);
 
 const empIDs = [
-  20197739, 20284456, 20245728, 20081506, 20219846,
-  20076861, 20331033, 20267241, 20017863, 20239240,
-  20293665, 20241333, 20174407, 20319940, 20024644
+ 20245728, 20017863, 20241333,
 ];
 const scanByIDs = [20245728, 20017863, 20241333];
 
 const roleCodes = Object.keys(mapping.role);
 const eventCodes = Object.keys(mapping.event);
 
-const mockMeta = Array.from({ length: 15 }, (_, i) => {
+const mockMeta = Array.from({ length: 100 }, (_, i) => {
   const empID = empIDs[i % empIDs.length];
   const scanBy = scanByIDs[i % scanByIDs.length];
   const roleCode = 'SIT'/*roleCodes[i % roleCodes.length];*/

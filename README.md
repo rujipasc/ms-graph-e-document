@@ -86,6 +86,17 @@ After each run
 3. Review `config/team.json`, `config/mapping.json`, and `config/dbConfig.js` so they match your environment.
 4. Ensure the working directories exist: `staging/`, `temp/`, `output/`, `logs/` (the pipeline will create them if missing, but provisioning them up front avoids permission surprises).
 
+### Python virtualenv for PDF re-save helper
+Encrypted PDFs are flattened through a small Python script (`scripts/resave_pdf.py`).  
+Create a project-local virtualenv so its libraries do not bleed into your global interpreter:
+```bash
+python3 -m venv .venv
+. .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install pypdf cryptography
+```
+The Node helper auto-detects `.venv/bin/python3` (or Windows `Scripts/python.exe`).  
+If you keep the venv elsewhere, set `RESAVE_PDFS_VENV_DIR=/path/to/venv` or point directly at the interpreter with `RESAVE_PDFS_PYTHON_BIN=/path/to/python`.
+
 ### Required Environment Variables
 | Variable | Description |
 | --- | --- |
