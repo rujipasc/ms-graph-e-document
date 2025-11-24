@@ -88,7 +88,7 @@ export const sendSummaryNotifications = async () => {
 
     try {
       await sendMailViaGraph({
-        to: [email],
+        to: Array.isArray(email) ? email : [email],
         subject: `📊 [HRIS] : ${teamFolder} eDocument Summary - ${today}`,
         body,
         attachments: [
