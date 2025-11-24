@@ -17,11 +17,21 @@ const USE_PYTHON_RESAVER =
   String(process.env.RESAVE_PDFS_USE_PYTHON || "true").toLowerCase() === "true";
 
 const resolvePythonBin = () => {
-  if (process.env.RESAVE_PDFS_PYTHON_BIN) {
-    return process.env.RESAVE_PDFS_PYTHON_BIN;
-  }
-  if (process.env.PYTHON) {
-    return process.env.PYTHON;
+  const preferredBins = [
+    { bin: process.env.RESAVE_PDFS_PYTHON_BIN, reason: "RESAVE_PDFS_PYTHON_BIN" },
+    { bin: process.env.PYTHON, reason: "PYTHON" },
+  ];
+
+  for (const { bin, reason } of preferredBins) {
+    if (!bin) continue;
+    if (fs.existsSync(bin)) {
+      return bin;
+    }
+    if (logger?.warn) {
+      logger.warn(
+        `⚠️ Python binary set via ${reason} not found at ${bin}. Falling back to auto-detect.`
+      );
+    }
   }
 
   const venvDir =
@@ -153,7 +163,9 @@ const resavePdfWithPdfLib = async (filePath) => {
   });
   const scratchPdf = await PDFDocument.create();
   const copiedPages = await scratchPdf.copyPages(pdfDoc, pdfDoc.getPageIndices());
-  copiedPages.forEach((page) => scratchPdf.addPage(page));
+  for (const page of copiedPages) {
+    scratchPdf.addPage(page);
+  }
   const resavedPath = buildTempPdfPath(filePath);
   await fs.writeFile(resavedPath, await scratchPdf.save());
   logger.info(`📝 Re-saved PDF copy via pdf-lib → ${resavedPath}`);
@@ -164,9 +176,9 @@ const resavePdfFile = async (filePath) => {
   if (USE_PYTHON_RESAVER) {
     try {
       return await resavePdfViaPython(filePath);
-    } catch (pythonErr) {
+    } catch (error_) {
       logger.warn(
-        `⚠️ Python PDF re-save failed for ${filePath}: ${pythonErr.message}. Falling back to pdf-lib.`
+        `⚠️ Python PDF re-save failed for ${filePath}: ${error_.message}. Falling back to pdf-lib.`
       );
     }
   }
@@ -224,8 +236,8 @@ export const mergePdfs = async (pdfFiles, outputPdfPath) => {
         cleanupFiles.map(async (file) => {
           try {
             await fs.remove(file);
-          } catch (cleanupErr) {
-            logger.warn(`⚠️ Failed to remove temp PDF ${file}: ${cleanupErr.message}`);
+          } catch (error_) {
+            logger.warn(`⚠️ Failed to remove temp PDF ${file}: ${error_.message}`);
           }
         })
       );
